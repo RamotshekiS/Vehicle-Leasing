@@ -8,8 +8,8 @@ namespace vehicleleasing.Models
     public class Vehicle
     {
         public int vehicleId { get; set; }
-        public String manufacture { get; set; }
-        public String model { get; set; }
+        public string manufacturer { get; set; }
+        public string model { get; set; }
         public int year { get; set; }
 
         public int SupplierId { get; set; }

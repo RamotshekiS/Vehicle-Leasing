@@ -8,8 +8,11 @@ namespace vehicleleasing.Models
     public class Supplier
     {
         public int Id { get; set; }
-        public String name { get; set; }
-        public String contact { get; set; }
-        
+        public string name { get; set; }
+        public string contact { get; set; }
+
+        //One to Many: One supplier can supply many Vehicles
+        public List<Vehicle> Vehicles { get; set; } = new List<Vehicle>();
     }
 }
+
