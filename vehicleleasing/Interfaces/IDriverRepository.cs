@@ -10,7 +10,7 @@ namespace vehicleleasing.Interfaces
     {
         Task<List<Driver>> GetAllAsync();
         Task<Driver?> GetByIdAsync(int id);
-        Task<Driver> CreateDriver(Driver driver);
+        Task<Driver> CreateAsync(Driver driver);
         Task<Driver> UpdateDriver(Driver driver);
         Task<Driver?> DeleteAsync(int id);
 

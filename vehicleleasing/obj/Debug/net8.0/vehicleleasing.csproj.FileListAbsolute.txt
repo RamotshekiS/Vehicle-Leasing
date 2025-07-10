@@ -274,3 +274,12 @@ C:\Users\Asus\Vehicle-Leasing\vehicleleasing\obj\Debug\net8.0\refint\vehicleleas
 C:\Users\Asus\Vehicle-Leasing\vehicleleasing\obj\Debug\net8.0\vehicleleasing.pdb
 C:\Users\Asus\Vehicle-Leasing\vehicleleasing\obj\Debug\net8.0\vehicleleasing.genruntimeconfig.cache
 C:\Users\Asus\Vehicle-Leasing\vehicleleasing\obj\Debug\net8.0\ref\vehicleleasing.dll
+C:\Users\GEEKS\VehicleLeasing\vehicleleasing\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\GEEKS\VehicleLeasing\vehicleleasing\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\GEEKS\VehicleLeasing\vehicleleasing\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\GEEKS\VehicleLeasing\vehicleleasing\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\GEEKS\VehicleLeasing\vehicleleasing\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\GEEKS\VehicleLeasing\vehicleleasing\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\GEEKS\VehicleLeasing\vehicleleasing\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\GEEKS\VehicleLeasing\vehicleleasing\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\GEEKS\VehicleLeasing\vehicleleasing\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

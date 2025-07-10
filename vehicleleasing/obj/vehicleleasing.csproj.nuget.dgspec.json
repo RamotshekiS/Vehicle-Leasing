@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Vehicle-Leasing\\vehicleleasing\\vehicleleasing.csproj": {}
+    "C:\\Users\\GEEKS\\VehicleLeasing\\vehicleleasing\\vehicleleasing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Vehicle-Leasing\\vehicleleasing\\vehicleleasing.csproj": {
+    "C:\\Users\\GEEKS\\VehicleLeasing\\vehicleleasing\\vehicleleasing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Vehicle-Leasing\\vehicleleasing\\vehicleleasing.csproj",
+        "projectUniqueName": "C:\\Users\\GEEKS\\VehicleLeasing\\vehicleleasing\\vehicleleasing.csproj",
         "projectName": "vehicleleasing",
-        "projectPath": "C:\\Users\\Asus\\Vehicle-Leasing\\vehicleleasing\\vehicleleasing.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Vehicle-Leasing\\vehicleleasing\\obj\\",
+        "projectPath": "C:\\Users\\GEEKS\\VehicleLeasing\\vehicleleasing\\vehicleleasing.csproj",
+        "packagesPath": "C:\\Users\\GEEKS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GEEKS\\VehicleLeasing\\vehicleleasing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GEEKS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -48,6 +53,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
@@ -85,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

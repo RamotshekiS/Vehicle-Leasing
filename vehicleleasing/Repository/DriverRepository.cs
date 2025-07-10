@@ -17,7 +17,7 @@ namespace vehicleleasing.Repository
         {
             _context = context;
         }
-        public async Task<Driver> CreateDriver(Driver driver)
+        public async Task<Driver> CreateAsync(Driver driver)
         {
             await _context.Drivers.AddAsync(driver);
             await _context.SaveChangesAsync();

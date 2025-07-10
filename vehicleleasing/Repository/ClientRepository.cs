@@ -18,7 +18,7 @@ namespace vehicleleasing.Repository
             _context = context;
         }
 
-        public async Task<Client> CreateClient(Client client)
+        public async Task<Client> CreateAsync(Client client)
         {
             await _context.Clients.AddAsync(client);
             await _context.SaveChangesAsync();

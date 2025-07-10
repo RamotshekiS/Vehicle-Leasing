@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using vehicleleasing.Dtos.Vehicle;
-using vehicleleasing.Dtos.VehicleDto;
+using vehicleleasing.Dtos.Vehicle;
 using vehicleleasing.Models;
 
 namespace vehicleleasing.Mappers

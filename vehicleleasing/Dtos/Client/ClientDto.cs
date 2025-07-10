@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace vehicleleasing.Dtos.Client
 {
-    public class CreateClientDto
+    public class ClientDto
     {
+        public int Id { get; set; }
         public string companyName { get; set; }
         public string email { get; set; }
         public string phone { get; set; }

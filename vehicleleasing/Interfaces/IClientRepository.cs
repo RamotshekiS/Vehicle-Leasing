@@ -10,7 +10,7 @@ namespace vehicleleasing.Interfaces
     {
         Task<List<Client>> GetAllAsync();
         Task<Client?> GetByIdAsync(int id);
-        Task<Client> CreateClient(Client client);
+        Task<Client> CreateAsync(Client client);
         Task<Client> UpdateClient(Client client);
         Task<Client?> DeleteAsync(int id);
     }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace vehicleleasing.Dtos.BranchDto
+namespace vehicleleasing.Dtos.Branch
 {
     public class CreateBranchDto
     {
