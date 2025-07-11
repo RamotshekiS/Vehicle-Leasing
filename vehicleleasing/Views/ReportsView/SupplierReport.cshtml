@@ -1,0 +1,51 @@
+@model IEnumerable<vehicleleasing.ViewModels.ManufactureReportViewModel>
+
+@{
+    ViewData["Title"] = "Supplier Vehicle Report";
+}
+
+<!-- Bootstrap Container -->
+<div class="container mt-5">
+
+    <div class="text-center mb-4">
+        <h2 class="fw-bold text-primary">@ViewData["Title"]</h2>
+        <p class="text-muted">Breakdown of vehicles by supplier and manufacturer</p>
+    </div>
+
+    <!-- Optional search input (not functional yet) -->
+    <div class="row mb-3">
+        <div class="col-md-4 offset-md-8">
+            <input type="text" class="form-control" placeholder="Search manufacturer or supplier..." />
+        </div>
+    </div>
+
+    <!-- Bootstrap Card -->
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            Vehicle Summary Table
+        </div>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-striped table-hover mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col">Supplier</th>
+                            <th scope="col">Manufacturer</th>
+                            <th scope="col">Vehicle Count</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.GroupName</td>
+                                <td>@item.Manufacture</td>
+                                <td>@item.Count</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

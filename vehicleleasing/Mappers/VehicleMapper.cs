@@ -12,6 +12,7 @@ namespace vehicleleasing.Mappers
     {
         public static VehicleDto ToVehicleDto(this Vehicle vehicle)
         {
+#pragma warning disable CS8601 // Possible null reference assignment.
             return new VehicleDto
             {
                 vehicleId = vehicle.vehicleId,
@@ -25,6 +26,7 @@ namespace vehicleleasing.Mappers
                 ClientName = vehicle.Client?.companyName,
                 DriverName = vehicle.Driver?.firstName
             };
+#pragma warning restore CS8601 // Possible null reference assignment.
         }
 
         public static Vehicle ToVehicleFromCreateDto(this CreateVehicleDto vehicleDto)
