@@ -276,3 +276,5 @@ C:\Users\Asus\Vehicle-Leasing\vehicleleasing\obj\Debug\net8.0\vehicleleasing.gen
 C:\Users\Asus\Vehicle-Leasing\vehicleleasing\obj\Debug\net8.0\ref\vehicleleasing.dll
 C:\Users\GEEKS\VehicleLeasing\vehicleleasing\obj\Debug\net8.0\vehicleleasing.RazorAssemblyInfo.cache
 C:\Users\GEEKS\VehicleLeasing\vehicleleasing\obj\Debug\net8.0\vehicleleasing.RazorAssemblyInfo.cs
+C:\Users\Asus\Vehicle-Leasing\vehicleleasing\obj\Debug\net8.0\vehicleleasing.RazorAssemblyInfo.cache
+C:\Users\Asus\Vehicle-Leasing\vehicleleasing\obj\Debug\net8.0\vehicleleasing.RazorAssemblyInfo.cs
