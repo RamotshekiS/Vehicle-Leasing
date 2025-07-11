@@ -5,7 +5,7 @@
 namespace vehicleleasing.Migrations
 {
     /// <inheritdoc />
-    public partial class init : Migration
+    public partial class InitFreshSchema : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -30,9 +30,10 @@ namespace vehicleleasing.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    companyName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    email = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    phone = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    companyName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    contactPerson = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    email = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    phone = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -62,6 +63,8 @@ namespace vehicleleasing.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    contactPerson = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     contact = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>

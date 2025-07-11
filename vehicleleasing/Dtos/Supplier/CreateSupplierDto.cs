@@ -9,6 +9,7 @@ namespace vehicleleasing.Dtos.Supplier
     {
         public string name { get; set; }
         public string email { get; set; }
+        public string contactPerson {get; set; }
         public string contact { get; set; }
         
     }

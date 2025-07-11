@@ -16,6 +16,7 @@ namespace vehicleleasing.Mappers
             {
                 Id = client.Id,
                 companyName = client.companyName,
+                contactPerson = client.contactPerson,
                 email = client.email,
                 phone = client.phone
             };
@@ -26,6 +27,7 @@ namespace vehicleleasing.Mappers
             return new Client
             {
                 companyName = dto.companyName,
+                contactPerson = dto.contactPerson,
                 email = dto.email,
                 phone = dto.phone
             };

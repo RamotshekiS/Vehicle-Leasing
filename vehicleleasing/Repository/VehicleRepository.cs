@@ -43,7 +43,12 @@ namespace vehicleleasing.Repository
 
         public async Task<List<Vehicle>> GetAllAsync()
         {
-            return await _context.Vehicles.ToListAsync();
+            return await _context.Vehicles
+               .Include(v => v.Supplier)
+               .Include(v => v.Branch)
+               .Include(v => v.Client)
+               .Include(v => v.Driver)
+               .ToListAsync();
         }
 
         public async Task<Vehicle?> GetByIdAsync(int id)

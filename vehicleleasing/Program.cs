@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using vehicleleasing.Data;
+using vehicleleasing.Interfaces;
+using vehicleleasing.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,10 +17,20 @@ builder.Services.AddSwaggerGen();
 //     options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
 // });
 
+
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+//builder.Services.AddScoped<IVehicleRepository, VehicleRepository>();
+
+//builder.Services.AddScoped<IVehicleRepository, VehicleRepository>();
+builder.Services.AddScoped<IVehicleRepository, VehicleRepository>();
+builder.Services.AddScoped<IBranchRepository, BranchRepository>();
+builder.Services.AddScoped<IClientRepository, ClientRepository>();
+builder.Services.AddScoped<ISupplierRepository, SupplierRepository>();
+builder.Services.AddScoped<IDriverRepository, DriverRepository>();
 
 var app = builder.Build();
 

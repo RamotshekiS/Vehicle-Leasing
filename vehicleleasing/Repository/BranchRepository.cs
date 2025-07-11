@@ -43,7 +43,7 @@ namespace vehicleleasing.Repository
 
         public async Task<List<Branch>> GetAllAsync()
         {
-            return await _context.Branches.Include(b => b.Vehicles).ToListAsync();
+            return await _context.Branches.ToListAsync();
         }
 
         public async Task<Branch?> GetByIdAsync(int id)

@@ -7,7 +7,10 @@ namespace vehicleleasing.Dtos.Supplier
 {
     public class UpdateSupplierDto
     {
+        public int Id { get; set; }
         public string name { get; set; }
-        public string contactInfo { get; set; }
+        public string contactPerson {get; set; }
+        public string email { get; set; }
+        public string contact { get; set; }
     }
 }

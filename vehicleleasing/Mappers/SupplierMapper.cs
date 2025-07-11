@@ -15,6 +15,7 @@ namespace vehicleleasing.Mappers
             {
                 Id = supplier.Id,
                 name = supplier.name,
+                contactPerson = supplier.contactPerson,
                 email = supplier.email,
                 contact = supplier.contact
             };
@@ -25,6 +26,7 @@ namespace vehicleleasing.Mappers
             return new Supplier
             {
                 name = dto.name,
+                contactPerson = dto.contactPerson,
                 email = dto.email,
                 contact = dto.contact
             };

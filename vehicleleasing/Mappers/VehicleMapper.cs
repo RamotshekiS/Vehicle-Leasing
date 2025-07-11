@@ -23,7 +23,7 @@ namespace vehicleleasing.Mappers
                 SupplierName = vehicle.Supplier?.name,
                 BranchName = vehicle.Branch?.branchName,
                 ClientName = vehicle.Client?.companyName,
-                DriverName = vehicle.Driver?.lastName
+                DriverName = vehicle.Driver?.firstName
             };
         }
 
